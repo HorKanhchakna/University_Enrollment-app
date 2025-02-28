@@ -1,7 +1,7 @@
 # University Enrollment Android App 
 
 ## Description  
-This Android application simplifies the **university enrollment process** by allowing students to register, select courses, and manage their academic details.
+This Android application simplifies the **university enrollment** by allowing students to register, select courses, and manage their academic details.
 
 ## Features   
 ✔ **User Authentication** – Secure login & signup  
@@ -12,8 +12,8 @@ This Android application simplifies the **university enrollment process** by all
 
 ## Tech Stack   
 - **Android Studio** – Development environment  
-- **Java/Kotlin** – Programming language  
-- **Firebase/SQLite** – Database for storing student records  
+- **Java** – Programming language  
+- **Figma** - Prototypes for design UI/UX 
 - **GitHub** – Version control  
 - **Trello** – Task management  
 
