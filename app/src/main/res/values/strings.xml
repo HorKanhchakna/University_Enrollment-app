@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UniversityEnrollmentApp</string>
+    <string name="enrollment_successful_title">Enrollment Successful!</string>
+    <string name="success_icon_desc">Success icon</string>
+    <string name="enrollment_confirmation_message">Congratulations!\nWe are pleased to inform you that your enrollment has been successfully completed.</string>
+    <string name="view_enrollment_details">View Enrollment Details</string>
+    <string name="exit">Exit</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="contact">Contact</string>
+</resources>
