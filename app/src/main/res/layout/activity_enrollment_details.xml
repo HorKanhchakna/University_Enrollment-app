@@ -3,112 +3,174 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#F5F5F5"
     android:orientation="vertical">
 
-    <!-- Header with Back Button -->
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#3F51B5"
-        android:orientation="horizontal"
-        android:padding="16dp">
+        android:layout_height="?attr/actionBarSize"
+        android:background="#303F9F"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center_vertical">
 
         <ImageButton
             android:id="@+id/backButton"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:src="@drawable/ic_arrow_back"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:tint="#FFFFFF" />
-
-        <TextView
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Enrollment Details"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:gravity="center" />
-    </LinearLayout>
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@drawable/ic_arrow_back"
+            android:tint="#FFFFFF"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"/>
 
-    <!-- Content Area -->
+    </RelativeLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:layout_marginTop="20sp">
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <!-- Student Name -->
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enrollment Details"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_student" />
+
+            <TextView
+                android:id="@+id/studentNameTextView"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[Student Name]"
                 android:textColor="#212121"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:gravity="center"
                 android:layout_marginBottom="24dp"/>
 
-            <!-- Payment ID -->
-            <TextView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Payment ID"
-                android:textColor="#757575"
-                android:textSize="14sp"
-                android:textStyle="bold"/>
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="12dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="pay - 12345689"
-                android:textColor="#212121"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-            <!-- Phone Number -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Phone Number"
-                android:textColor="#757575"
-                android:textSize="14sp"
-                android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Payment ID"
+                        android:textColor="#757575"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="4dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="012 3456789"
-                android:textColor="#212121"
-                android:textSize="16sp"
-                android:layout_marginBottom="16dp"/>
+                    <TextView
+                        android:id="@+id/paymentIdTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="pay - 12345689"
+                        android:textColor="#212121"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
-            <!-- Enrollment Date -->
-            <TextView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Enrollment Date"
-                android:textColor="#757575"
-                android:textSize="14sp"
-                android:textStyle="bold"/>
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="12dp">
 
-            <TextView
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:textColor="#757575"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="4dp"/>
+
+                    <TextView
+                        android:id="@+id/phoneNumberTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="012 3456789"
+                        android:textColor="#212121"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="01/02/2025"
-                android:textColor="#212121"
-                android:textSize="16sp"/>
+                app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Enrollment Date"
+                        android:textColor="#757575"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="4dp"/>
+
+                    <TextView
+                        android:id="@+id/enrollmentDateTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="01/02/2025"
+                        android:textColor="#212121"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </ScrollView>
 
-    <!-- Bottom Navigation -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
