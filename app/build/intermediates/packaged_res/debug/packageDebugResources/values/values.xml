@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">UniversityEnrollmentApp</string>
+    <string name="contact">Contact</string>
+    <string name="enrollment_confirmation_message">Congratulations!\nWe are pleased to inform you that your enrollment has been successfully completed.</string>
+    <string name="enrollment_successful_title">Enrollment Successful!</string>
+    <string name="exit">Exit</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="success_icon_desc">Success icon</string>
+    <string name="view_enrollment_details">View Enrollment Details</string>
+    <style name="Base.Theme.UniversityEnrollmentApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="FullWidthBottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemHorizontalTranslationEnabled">false</item>
+        <item name="itemPaddingTop">0dp</item>
+        <item name="itemPaddingBottom">0dp</item>
+    </style>
+    <style name="Theme.UniversityEnrollmentApp" parent="Base.Theme.UniversityEnrollmentApp"/>
+</resources>
