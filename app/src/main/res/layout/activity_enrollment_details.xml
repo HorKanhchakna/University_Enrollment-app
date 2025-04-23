@@ -9,7 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#303F9F"
+        android:background="#000080"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:gravity="center_vertical">
@@ -175,7 +175,7 @@
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#303F9F"
+        android:background="#000080"
         app:itemIconTint="#FFFFFF"
         app:itemTextColor="#FFFFFF"
         app:labelVisibilityMode="labeled"
