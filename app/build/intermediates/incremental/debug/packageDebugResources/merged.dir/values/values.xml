@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">UniversityEnrollmentApp</string>
+    <string name="bike_illustration">Bike Illustration</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="contact">Contact</string>
+    <string name="create_account">Create Account!</string>
+    <string name="create_password">Create Password</string>
+    <string name="enrollment_confirmation_message">Congratulations!\nWe are pleased to inform you that your enrollment has been successfully completed.</string>
+    <string name="enrollment_successful_title">Enrollment Successful!</string>
+    <string name="exit">Exit</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="full_name">Full Name</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="or">Or</string>
+    <string name="password">Password</string>
+    <string name="phone_number_or_email">Phone Number or Email...</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_here">Sign In Here!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup_image">Signup Image</string>
+    <string name="success_icon_desc">Success icon</string>
+    <string name="thank_you_for_choosing_enroll_app_your_all_in_one_solution_for_a_smooth_and_hassle_free_university_enrollment_process_whether_you_re_a_first_year_student_or_continuing_your_academic_journey_our_app_is_here_to_guide_you_every_step_of_the_way">Thank you for choosing Enroll App, your all-in-one solution for a smooth and hassle-free university enrollment process! Whether you\'re a first-year student or continuing your academic journey, our app is here to guide you every step of the way.</string>
+    <string name="todo">TODO</string>
+    <string name="view_enrollment_details">View Enrollment Details</string>
+    <string name="welcome_to_enroll_app">Welcome to Enroll App!</string>
+    <style name="Base.Theme.UniversityEnrollmentApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="FullWidthBottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemHorizontalTranslationEnabled">false</item>
+        <item name="itemPaddingTop">0dp</item>
+        <item name="itemPaddingBottom">0dp</item>
+    </style>
+    <style name="Theme.UniversityEnrollmentApp" parent="Base.Theme.UniversityEnrollmentApp"/>
+</resources>

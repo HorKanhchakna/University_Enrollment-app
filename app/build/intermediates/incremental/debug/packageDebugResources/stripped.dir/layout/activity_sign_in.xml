@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnSignup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Top Navigation Bar (Header) -->
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:background="#000080"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_arrow_back"
+            tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
+    </LinearLayout>
+
+    <!-- Illustration Image -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerLayout"
+        app:srcCompat="@drawable/signin"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <!-- Sign In Title -->
+    <TextView
+        android:id="@+id/tvSignInTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="55dp"
+        android:gravity="center"
+        android:text="@string/sign_in_here"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <!-- Email/Phone Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEmailPhone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Phone Number or Email..."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSignInTitle"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmailPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress|phone"
+            android:textColorHint="#757575"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:hint="@string/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tilEmailPhone"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Forgot Password Link -->
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/forgot_password"
+        android:textColor="#1976D2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tilPassword" />
+
+    <!-- Sign In Button -->
+
+    <!-- Or Divider -->
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#000080"
+        android:paddingVertical="12dp"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForgotPassword"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignIn">
+
+        <View
+            android:id="@+id/dividerLine"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            app:layout_constraintBottom_toBottomOf="@+id/tvOr"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvOr"
+            tools:ignore="NotSibling" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Social Login Buttons (Placeholder) -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOr"
+        tools:ignore="HardcodedText">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/fb"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:src="@drawable/twitterx"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:src="@drawable/google"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingHorizontal="16dp"
+        android:text="Or"
+        android:textColor="#666666"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="629dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
