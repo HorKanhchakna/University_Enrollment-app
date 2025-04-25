@@ -316,12 +316,11 @@
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:background="#000080"
         app:itemIconTint="#FFFFFF"
         app:itemTextColor="#FFFFFF"
         app:labelVisibilityMode="labeled"
-        app:menu="@menu/bottom_nav_menu"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
