@@ -1,15 +1,19 @@
 [
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\menu_bottom_nav_menu.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\menu\\bottom_nav_menu.xml"
     },
     {
+        "merged": "com.example.universityenrollmentapp-debug-4:/layout_activity_enrollment_success.xml.flat",
+        "source": "com.example.universityenrollmentapp-main-6:/layout/activity_enrollment_success.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_facebook.png.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_earth.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\earth.png"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_gmail_icon__2020__svg.png.flat",
@@ -24,6 +28,10 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -36,44 +44,24 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-hdpi/ic_launcher_foreground.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_card_background.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_profile_student.png.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\profile_student.png"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\layout_activity_news.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\layout\\activity_news.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\layout_activity_contact.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\layout\\activity_contact.xml"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/layout_activity_news.xml.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/layout/activity_news.xml"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -88,48 +76,60 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\layout\\activity_enrollment_success.xml"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/drawable_enrollment_logo.png.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/drawable/enrollment_logo.png"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\ic_check_circle.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_ic_check_circle.xml.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\ic_check_circle.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_history.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\history.png"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "com.example.universityenrollmentapp-debug-4:/layout_activity_contact.xml.flat",
         "source": "com.example.universityenrollmentapp-main-6:/layout/activity_contact.xml"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\layout_activity_my_class.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\layout\\activity_my_class.xml"
     },
     {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_academic.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\academic.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_vision_and_mission.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\vision_and_mission.png"
+    },
+    {
+        "merged": "com.example.universityenrollmentapp-debug-4:/layout_activity_my_class.xml.flat",
+        "source": "com.example.universityenrollmentapp-main-6:/layout/activity_my_class.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_phone_circle_green.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\phone_circle_green.webp"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_overview_books.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\overview_books.png"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\xml_backup_rules.xml.flat",
@@ -140,16 +140,12 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -160,24 +156,16 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\layout\\activity_enrollment_details.xml"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/drawable_card_background.xml.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/drawable/card_background.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_ic_call.xml.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\ic_call.xml"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\layout_activity_campus.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\layout\\activity_campus.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -188,20 +176,12 @@
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-mdpi/ic_launcher_foreground.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_enrollment_logo.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-6:\\drawable\\enrollment_logo.png"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\drawable_ic_arrow_back.xml.flat",
@@ -216,8 +196,8 @@
         "source": "com.example.universityenrollmentapp-main-6:/layout/activity_campus.xml"
     },
     {
-        "merged": "com.example.universityenrollmentapp-debug-4:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.example.universityenrollmentapp-main-6:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "com.example.universityenrollmentapp-debug-4:/layout_activity_enrollment_details.xml.flat",
+        "source": "com.example.universityenrollmentapp-main-6:/layout/activity_enrollment_details.xml"
     },
     {
         "merged": "C:\\Users\\user\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",

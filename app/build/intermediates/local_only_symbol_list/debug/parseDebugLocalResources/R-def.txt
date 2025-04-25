@@ -2,11 +2,14 @@ R_DEF: Internal format may change without notice
 local
 color black
 color white
+drawable academic
 drawable card_background
 drawable circle_background
+drawable earth
 drawable enrollment_logo
 drawable facebook
 drawable gmail_icon__2020__svg
+drawable history
 drawable ic_arrow_back
 drawable ic_call
 drawable ic_check_circle
@@ -15,8 +18,10 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_notifications
 drawable ic_user
+drawable overview_books
 drawable phone_circle_green
 drawable profile_student
+drawable vision_and_mission
 id backButton
 id bottomNavigation
 id checkmarkImageView

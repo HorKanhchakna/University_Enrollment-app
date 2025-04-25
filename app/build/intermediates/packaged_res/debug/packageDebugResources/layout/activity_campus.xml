@@ -1,6 +1,319 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Header Section -->
+
+    <!-- ScrollView with Content -->
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="#000080"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:src="@drawable/ic_arrow_back"
+            app:tint="#FFFFFF" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headerLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="My Campus"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Subtitle -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="4dp"
+                android:text="   The Royal University of Phnom Penh (RUPP) is Cambodia’s oldest and largest public university, established in 1960 as the Royal Khmer University. Located in Phnom Penh, RUPP has played a pivotal role in shaping the nation's higher education landscape and continues to be a leading institution in Cambodia.​
+
+"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <!-- Overview Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="Overview"
+                    android:src="@drawable/overview_books" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Overview"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="6dp"
+                android:background="#AAAAAA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="4dp"
+                android:text="• Name: Royal University of Phnom Penh (RUPP)\n• Established: January 13, 1960\n• Location: Russian Federation Boulevard, Toul Kork, Phnom Penh, Cambodia\n• Student Population: Over 30,000 students, with approximately 17,854 female students\n• Academic Staff: More than 1,140 staff members, including 294 academic staff with 15 PhDs and 132 Master's degrees web-new.rupp.edu.khrupp.edu.kh\n• Campuses: Three campuses, including the main campus and Campus II, which houses departments like History, Sociology, and Philosophy rupp.edu.kh\n• Website: rupp.edu.kh"
+                android:textSize="14sp" />
+
+
+            <!-- Historical Background Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="History"
+                    android:src="@drawable/history" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Historical Background"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="6dp"
+                android:background="#AAAAAA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:text="    RUPP began as the Royal Khmer University, encompassing faculties such as Letters and Human Sciences, Science and Technology, Medicine, Commerce, and Law. The university was closed during the Khmer Rouge regime (1975–1979), a period that devastated Cambodia's educational institutions. It reopened in 1980 as the Ecole Normale Supérieure and later merged with the Institute of Foreign Languages (IFL) in 1988 to form Phnom Penh University. In 1996, it was renamed the Royal University of Phnom Penh."
+                android:textSize="14sp" />
+            <!-- Academic Structure Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="Overview"
+                    android:src="@drawable/academic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Academic Structure"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="6dp"
+                android:background="#AAAAAA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="4dp"
+                android:text="RUPP offers a diverse range of undergraduate and postgraduate programs across various faculties and institutes:
+\n    • Faculty of Science: Biology, Chemistry, Computer Science, Environmental Science, Mathematics, Physics
+\n    • Faculty of Social Sciences and Humanities: Geography, History, Khmer Literature, Linguistics, Media and Communication, Philosophy, Psychology, Sociology, Social Work, Tourism
+\n    • Faculty of Engineering: Automation and Supply Chain Systems Engineering, Bioengineering, Data Science Engineering, Environmental Engineering, Information Technology Engineering, Telecommunication and Electronic Engineering
+\n    • Faculty of Development Studies: Community Development, Economic Development, Natural Resources Management and Development
+\n    • Faculty of Education: Educational Studies, Higher Education Development and Management, Lifelong Learning
+\n    • Institute of Foreign Languages (IFL): English, French, Japanese, Korean, Chinese, Thai, Khmer for Foreigners
+\n    • Institute of International Studies and Public Policy: International Relations, International Economics, Political Science and Public Policy, Vietnamese Studies
+\nRUPP is notable for offering Cambodia’s foremost degree-level language programs through the IFL and is the only Cambodian university with full membership in the ASEAN University Network (AUN)."
+                android:textSize="14sp" />
+
+            <!-- Vision and Mission Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="Vision and Mission"
+                    android:src="@drawable/vision_and_mission" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vision and Mission"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="6dp"
+                android:background="#AAAAAA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:text="     RUPP is committed to developing human capital with critical reasoning, ethical decision-making, research and innovation skills, and cultural awareness. The university aims to contribute to Cambodia's socio-economic development and preserve its cultural and natural heritage.\n"
+                android:textSize="14sp" />
+
+
+            <!-- International Collaboration Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="International Collaboration"
+                    android:src="@drawable/earth" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="International Collaboration"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="6dp"
+                android:background="#AAAAAA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:text="      RUPP maintains partnerships with over 222 international institutions, including universities, NGOs, and government ministries. These collaborations enhance academic programs, research opportunities, and cultural exchanges. \n​web-new.rupp.edu.kh \n"
+                android:textSize="14sp" />
+
+            <!-- Architectural Significance Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="Architectural Significance"
+                    android:src="@drawable/history" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Architectural Significance"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="6dp"
+                android:background="#AAAAAA" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4dp"
+                android:text="        The university's architecture reflects New Khmer Architecture, blending modernist elements with traditional Khmer design. Notably, the main hall features a parabolic roof and open-air design, symbolizing Cambodia's post-independence aspirations.
+\n​Architectuul \n\n\n\n"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#000080"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#FFFFFF"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
