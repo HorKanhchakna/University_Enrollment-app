@@ -10,11 +10,7 @@
     <LinearLayout
         android:id="@+id/headerLayout"
         android:layout_width="match_parent"
-<<<<<<< HEAD
         android:layout_height="70dp"
-=======
-        android:layout_height="56dp"
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
         android:background="#000080"
         android:orientation="horizontal"
         android:paddingHorizontal="16dp"
@@ -23,39 +19,22 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-<<<<<<< HEAD
-            android:layout_marginTop="18dp"
+            android:layout_marginTop="20sp"
             android:layout_weight="1"
             android:gravity="start|center_vertical"
             android:text="Enroll App"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold" />
-=======
-            android:layout_weight="1"
-            android:layout_marginTop="10sp"
-            android:text="Enroll App"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:gravity="start|center_vertical" />
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 
         <ImageView
             android:id="@+id/userIcon"
             android:layout_width="32dp"
             android:layout_height="32dp"
-<<<<<<< HEAD
             android:layout_gravity="center_vertical"
             android:contentDescription="User profile"
             android:src="@drawable/ic_user"
             app:tint="#FFFFFF" />
-=======
-            android:src="@drawable/ic_user"
-            android:tint="#FFFFFF"
-            android:contentDescription="User profile"
-            android:layout_gravity="center_vertical" />
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
     </LinearLayout>
 
     <!-- Success Content -->

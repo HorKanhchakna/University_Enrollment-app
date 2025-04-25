@@ -667,6 +667,17 @@ attr isLightTheme
 attr isMaterial3DynamicColorApplied
 attr isMaterial3Theme
 attr isMaterialTheme
+attr iss_auto_cycle
+attr iss_corner_radius
+attr iss_delay
+attr iss_error_image
+attr iss_indicator_align
+attr iss_period
+attr iss_placeholder
+attr iss_selected_dot
+attr iss_text_align
+attr iss_title_background
+attr iss_unselected_dot
 attr itemActiveIndicatorStyle
 attr itemBackground
 attr itemFillColor
@@ -1434,8 +1445,10 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey_font
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color light_font
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2112,6 +2125,8 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color text_shadow
+color text_shadow_white
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -2997,12 +3012,10 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-<<<<<<< HEAD
 drawable academic
-=======
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 drawable avd_hide_password
 drawable avd_show_password
+drawable box_background
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3011,26 +3024,27 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-<<<<<<< HEAD
+drawable campus
 drawable card_background
-=======
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 drawable circle_background
+drawable date
+drawable default_selected_dot
+drawable default_unselected_dot
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-<<<<<<< HEAD
 drawable earth
+drawable enrollment
 drawable enrollment_logo
+drawable error
 drawable facebook
-drawable gmail_icon__2020__svg
-drawable history
-=======
 drawable fb
+drawable gmail_icon__2020__svg
 drawable google
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
+drawable gradient
+drawable history
 drawable ic_arrow_back
 drawable ic_arrow_back_black_24
 drawable ic_call
@@ -3057,7 +3071,11 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_notifications
 drawable ic_search_black_24
 drawable ic_user
+drawable icon_user
+drawable img_campus
 drawable indeterminate_static
+drawable loading
+drawable logo
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3116,6 +3134,7 @@ drawable mtrl_switch_thumb_unchecked_pressed
 drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
+drawable myclass
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -3130,24 +3149,21 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-<<<<<<< HEAD
 drawable overview_books
 drawable phone_circle_green
+drawable placeholder
 drawable profile_student
-drawable test_level_drawable
-drawable tooltip_frame_dark
-drawable tooltip_frame_light
-drawable vision_and_mission
-=======
-drawable profile_student
+drawable rounded_card
 drawable signin
 drawable signup
+drawable slide1
+drawable slider1
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable twitterx
+drawable vision_and_mission
 drawable welcome
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3247,19 +3263,16 @@ id bestChoice
 id blocking
 id bottom
 id bottomNavigation
+id bottomNavigationView
 id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-<<<<<<< HEAD
-id buttonPanel
-=======
 id btnSignIn
 id btnSignUp
 id btnSignup
 id buttonPanel
 id buttonSignup
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3303,10 +3316,7 @@ id currentState
 id custom
 id customPanel
 id cut
-<<<<<<< HEAD
-=======
 id dataBinding
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3327,10 +3337,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
-<<<<<<< HEAD
-=======
 id dividerLine
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3345,13 +3352,10 @@ id easeInOut
 id easeOut
 id east
 id edge
-<<<<<<< HEAD
-=======
 id editTextConfirmPassword
 id editTextFullName
 id editTextPassword
 id editTextPhoneEmail
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id edit_query
 id edit_text_id
 id elastic
@@ -3362,11 +3366,8 @@ id enrollmentDateTextView
 id enterAlways
 id enterAlwaysCollapsed
 id escape
-<<<<<<< HEAD
-=======
 id etEmailPhone
 id etPassword
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id exitButton
 id exitUntilCollapsed
 id expand_activities_button
@@ -3413,11 +3414,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-<<<<<<< HEAD
-=======
 id imageView
 id imageView2
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
+id image_view
 id immediateStop
 id included
 id indeterminate
@@ -3426,10 +3425,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
-<<<<<<< HEAD
-=======
 id ivIllustration
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3440,6 +3436,7 @@ id legacy
 id line1
 id line3
 id linear
+id linear_layout
 id listMode
 id list_item
 id m3_side_sheet
@@ -3527,11 +3524,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
-<<<<<<< HEAD
-=======
 id onAttachStateChangeListener
 id onDateChanged
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id onInterceptTouchReturnSwipe
 id open_search_bar_text_view
 id open_search_view_background
@@ -3547,10 +3541,12 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
+id optionsGrid
 id outline
 id outward
 id overshoot
 id packed
+id pager_dots
 id parallax
 id parent
 id parentPanel
@@ -3666,31 +3662,27 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-<<<<<<< HEAD
-=======
 id textView
 id textWatcher
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_view
 id textinput_counter
 id textinput_error
 id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-<<<<<<< HEAD
-=======
 id tilEmailPhone
 id tilPassword
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id time
 id title
 id titleDividerNoCustom
 id title_template
 id toggle
 id top
+id topBannerCard
 id topPanel
 id touch_outside
 id transitionToEnd
@@ -3704,14 +3696,11 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-<<<<<<< HEAD
-=======
 id tvDescription
 id tvForgotPassword
 id tvOr
 id tvSignInTitle
 id tvWelcome
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 id unchecked
 id uniform
 id unlabeled
@@ -3722,6 +3711,7 @@ id vertical
 id vertical_only
 id viewDetailsButton
 id view_offset_helper
+id view_pager
 id view_transition
 id view_tree_disjoint_parent
 id view_tree_lifecycle_owner
@@ -3853,22 +3843,16 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-<<<<<<< HEAD
 layout activity_campus
 layout activity_contact
-=======
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 layout activity_enrollment_details
 layout activity_enrollment_success
-layout activity_main
+layout activity_home
 layout activity_my_class
-<<<<<<< HEAD
 layout activity_news
-=======
 layout activity_sign_in
 layout activity_sign_up
 layout activity_welcome
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3885,6 +3869,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout image_slider
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout m3_alert_dialog
@@ -3944,16 +3929,14 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout pager_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
 mipmap ic_launcher
-<<<<<<< HEAD
 mipmap ic_launcher_foreground
-=======
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -3986,10 +3969,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
-<<<<<<< HEAD
-=======
 string bike_illustration
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -4007,14 +3987,10 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
-<<<<<<< HEAD
-string contact
-=======
 string confirm_password
 string contact
 string create_account
 string create_password
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 string enrollment_confirmation_message
 string enrollment_successful_title
 string error_a11y_label
@@ -4023,15 +3999,13 @@ string exit
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
-<<<<<<< HEAD
-=======
 string forgot_password
 string full_name
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 string hide_bottom_view_on_scroll_behavior
 string home
 string icon_content_description
 string item_view_role_description
+string left
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4133,31 +4107,20 @@ string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string news
-<<<<<<< HEAD
-=======
 string or
 string password
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-<<<<<<< HEAD
-=======
 string phone_number_or_email
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
-<<<<<<< HEAD
-string status_bar_notification_info_overflow
-string success_icon_desc
-string view_enrollment_details
-=======
 string sign_in
 string sign_in_here
 string sign_up
@@ -4168,7 +4131,6 @@ string thank_you_for_choosing_enroll_app_your_all_in_one_solution_for_a_smooth_a
 string todo
 string view_enrollment_details
 string welcome_to_enroll_app
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -5361,6 +5323,7 @@ styleable GradientColor android_startColor android_endColor android_type android
 styleable GradientColorItem android_color android_offset
 styleable Grid grid_columnWeights grid_columns grid_horizontalGaps grid_orientation grid_rowWeights grid_rows grid_skips grid_spans grid_useRtl grid_validateInputs grid_verticalGaps
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth
+styleable ImageSlider iss_auto_cycle iss_corner_radius iss_delay iss_error_image iss_indicator_align iss_period iss_placeholder iss_selected_dot iss_text_align iss_title_background iss_unselected_dot
 styleable Insets marginLeftSystemWindowInsets marginRightSystemWindowInsets marginTopSystemWindowInsets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets paddingStartSystemWindowInsets paddingTopSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transformPivotTarget transitionEasing transitionPathRotate
 styleable KeyCycle android_alpha android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate waveOffset wavePeriod wavePhase waveShape waveVariesBy

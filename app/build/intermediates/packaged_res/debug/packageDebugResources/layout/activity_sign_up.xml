@@ -15,8 +15,7 @@
     <LinearLayout
         android:id="@+id/headerLayout"
         android:layout_width="0dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="4dp"
+        android:layout_height="70dp"
         android:background="#000080"
         android:orientation="horizontal"
         android:paddingHorizontal="16dp"
@@ -32,9 +31,14 @@
             android:layout_marginStart="8dp"
             android:contentDescription="@string/todo"
             android:src="@drawable/ic_arrow_back"
+            app:tint="#FFFFFF"
             tools:ignore="ImageContrastCheck" />
     </LinearLayout>
 
+
+    <!-- Phone or Email Field -->
+
+    <!-- Create Password Field -->
 
 
     <ImageView
@@ -44,15 +48,10 @@
         android:layout_marginTop="16dp"
         android:contentDescription="@string/signup_image"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/headerLayout"
         app:srcCompat="@drawable/signup" />
-
-    <!-- Phone or Email Field -->
-
-    <!-- Create Password Field -->
-
 
     <TextView
         android:id="@+id/textView"

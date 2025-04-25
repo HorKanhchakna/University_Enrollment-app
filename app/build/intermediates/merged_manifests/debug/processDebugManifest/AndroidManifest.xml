@@ -8,6 +8,8 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="35" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <permission
         android:name="com.example.universityenrollmentapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -28,11 +30,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.UniversityEnrollmentApp" >
         <activity
-<<<<<<< HEAD
             android:name="com.example.universityenrollmentapp.MainActivity"
-=======
-            android:name="com.example.universityenrollmentapp.SignIn"
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,18 +38,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
-        <activity
-            android:name="com.example.universityenrollmentapp.Welcome"
-            android:exported="false" />
-        <activity
-            android:name="com.example.universityenrollmentapp.sign_up"
-            android:exported="false" />
-        <activity
-            android:name="com.example.universityenrollmentapp.MainActivity"
-            android:exported="false" />
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -87,6 +73,11 @@
                 <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
             </intent-filter>
         </receiver>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.universityenrollmentapp.com.squareup.picasso"
+            android:exported="false" />
     </application>
 
 </manifest>

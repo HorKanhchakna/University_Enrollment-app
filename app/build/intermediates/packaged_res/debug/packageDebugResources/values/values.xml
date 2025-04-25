@@ -3,16 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">UniversityEnrollmentApp</string>
-<<<<<<< HEAD
-    <string name="contact">Contact</string>
-    <string name="enrollment_confirmation_message">Congratulations!\nWe are pleased to inform you that your enrollment has been successfully completed.</string>
-    <string name="enrollment_successful_title">Enrollment Successful!</string>
-    <string name="exit">Exit</string>
-    <string name="home">Home</string>
-    <string name="news">News</string>
-    <string name="success_icon_desc">Success icon</string>
-    <string name="view_enrollment_details">View Enrollment Details</string>
-=======
     <string name="bike_illustration">Bike Illustration</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="contact">Contact</string>
@@ -37,7 +27,6 @@
     <string name="todo">TODO</string>
     <string name="view_enrollment_details">View Enrollment Details</string>
     <string name="welcome_to_enroll_app">Welcome to Enroll App!</string>
->>>>>>> b49b905e69b319388be688aacdf2573b1748b2d0
     <style name="Base.Theme.UniversityEnrollmentApp" parent="Theme.Material3.DayNight.NoActionBar">
         
         

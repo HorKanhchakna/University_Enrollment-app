@@ -45,7 +45,8 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     implementation(libs.imageslideshow)
-
-
-
+    implementation("com.github.denzcoskun:ImageSlideshow:0.0.6")
+    implementation("com.github.denzcoskun:ImageSlideshow:0.1.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.11.0")
 }

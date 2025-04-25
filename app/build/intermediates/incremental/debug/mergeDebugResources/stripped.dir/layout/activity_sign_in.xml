@@ -8,11 +8,12 @@
     android:background="#FFFFFF">
 
     <!-- Top Navigation Bar (Header) -->
+
+    <!-- Illustration Image -->
     <LinearLayout
         android:id="@+id/headerLayout"
         android:layout_width="0dp"
         android:layout_height="56dp"
-        android:layout_marginTop="4dp"
         android:background="#000080"
         android:orientation="horizontal"
         android:paddingHorizontal="16dp"
@@ -31,7 +32,6 @@
             tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck" />
     </LinearLayout>
 
-    <!-- Illustration Image -->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="300dp"

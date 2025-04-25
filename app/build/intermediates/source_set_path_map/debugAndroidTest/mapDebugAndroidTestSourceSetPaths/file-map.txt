@@ -1,0 +1,5 @@
+com.example.universityenrollmentapp.test.app-androidTest-0 C:\RUPP\Year 3\Semester 2\Mobile Application Deverlopment I\University_Enrollment-app\app\build\generated\res\resValues\androidTest\debug
+com.example.universityenrollmentapp.test.app-mergeDebugAndroidTestResources-1 C:\RUPP\Year 3\Semester 2\Mobile Application Deverlopment I\University_Enrollment-app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.universityenrollmentapp.test.app-mergeDebugAndroidTestResources-2 C:\RUPP\Year 3\Semester 2\Mobile Application Deverlopment I\University_Enrollment-app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.universityenrollmentapp.test.app-debugAndroidTest-3 C:\RUPP\Year 3\Semester 2\Mobile Application Deverlopment I\University_Enrollment-app\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.universityenrollmentapp.test.app-core-1.6.1-4 C:\Users\user\.gradle\caches\8.10.2\transforms\6fdb0032bf7c65aa153caa69a1fabc44\transformed\core-1.6.1\res

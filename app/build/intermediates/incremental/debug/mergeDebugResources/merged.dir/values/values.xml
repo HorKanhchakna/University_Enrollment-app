@@ -699,8 +699,10 @@
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="grey_font">#ff9e9e9e</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="light_font">#FBFBFB</color>
     <color name="m3_ref_palette_black">#ff000000</color>
     <color name="m3_ref_palette_error0">#ff000000</color>
     <color name="m3_ref_palette_error10">#ff410e0b</color>
@@ -958,6 +960,8 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="white">#FFFFFFFF</color>
@@ -2024,6 +2028,7 @@
     <string name="home">Home</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="left">LEFT</string>
     <string name="m3_exceed_max_badge_text_suffix" translatable="false"><ns2:g example="Some te" id="part of a long text">%1$s</ns2:g><ns2:g example="…" id="suffix">%2$s</ns2:g></string>
     <string name="m3_ref_typeface_brand_medium" translatable="false">sans-serif-medium</string>
     <string name="m3_ref_typeface_brand_regular" translatable="false">sans-serif</string>
@@ -11590,6 +11595,19 @@
         <attr format="float" name="imagePanY"/>
         <attr format="float" name="imageZoom"/>
         <attr format="float" name="imageRotate"/>
+    </declare-styleable>
+    <declare-styleable name="ImageSlider">
+        <attr format="boolean" name="iss_auto_cycle"/>
+        <attr format="integer" name="iss_corner_radius"/>
+        <attr format="integer" name="iss_period"/>
+        <attr format="integer" name="iss_delay"/>
+        <attr format="reference" name="iss_placeholder"/>
+        <attr format="reference" name="iss_error_image"/>
+        <attr format="reference" name="iss_selected_dot"/>
+        <attr format="reference" name="iss_unselected_dot"/>
+        <attr format="reference" name="iss_title_background"/>
+        <attr format="string" name="iss_text_align"/>
+        <attr format="string" name="iss_indicator_align"/>
     </declare-styleable>
     <declare-styleable name="Insets">
     

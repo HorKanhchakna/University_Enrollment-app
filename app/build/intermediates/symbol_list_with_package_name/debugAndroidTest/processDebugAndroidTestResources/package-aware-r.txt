@@ -1,0 +1,3 @@
+com.example.universityenrollmentapp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="primary">#2300A0</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="inputText">#80000000</color>
+    <color name="green">#09BD0F</color>
+    <color name="text">#B0000000</color>
+    <color name="inputBg">#00000057</color>
 </resources>
