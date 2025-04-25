@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.universityenrollmentapp-mergeDebugResources-2:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.universityenrollmentapp-mergeDebugResources-33:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\8.10.2\\transforms\\17c3bbcc32d65bf9ddb1c38ca4ded80c\\transformed\\material-1.12.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\RUPP\\Year 3\\Semester 2\\Mobile Application Deverlopment I\\University_Enrollment-app\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\user\\AndroidStudioProjects\\University_Enrollment-app\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
