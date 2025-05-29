@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Header Section -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/appBar"
+        style="@style/TopBar"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/top_bar_menu"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="News"
+        app:titleTextAppearance="@style/Toolbar.TitleTextStyle"
+        app:titleTextColor="@color/white" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:text="News and Holidays"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- Holidays Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Holidays of 2025"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Jan 1: International New Year’s Day\nJan 7: Victory over Genocide Day\nMarch 8: International Women’s Day\nApr 12-16: Khmer New Year\nMay 1: International Labour Day\nMay 11: Visak Bochea Day\nMay 14: King’s Birthday\nMay 15: Royal Ploughing Ceremony\nJun 18: King’s Mother Birthday\nSep 20-23: Pchum Ben\nSep 24: Constitutional Day\nOct 15: King’s Father Commemoration Day\nOct 29: King’s Coronation Day\nNov 4-6: Water Festival\nNov 9: Independence Day\nDec 29: Peace Day in Cambodia"
+                android:textSize="16sp" />
+
+            <!-- News Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Update News"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp"
+                android:background="#000000" />
+
+            <!-- RecyclerView -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="14dp"
+                tools:listitem="@layout/events_schedule" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     <color name="green">#09BD0F</color>
     <color name="inputBg">#00000057</color>
     <color name="inputText">#80000000</color>
-    <color name="primary">#2300A0</color>
+    <color name="primary">#000080</color>
     <color name="text">#B0000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="afternoon">Afternoon</string>
@@ -12,6 +12,7 @@
     <string name="bachelor_s_degree">Bachelor’s Degree</string>
     <string name="back">Back</string>
     <string name="bike_illustration">Bike Illustration</string>
+    <string name="campus">Campus</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="contact">Contact</string>
     <string name="country">Country</string>
@@ -25,6 +26,7 @@
     <string name="emergency_contact_number">Emergency Contact Number</string>
     <string name="enroll_app">Enroll App</string>
     <string name="enrollment_confirmation_message">Congratulations!\nWe are pleased to inform you that your enrollment has been successfully completed.</string>
+    <string name="enrollment_details">Enrollment Details</string>
     <string name="enrollment_information">Enrollment Information</string>
     <string name="enrollment_successful_title">Enrollment Successful!</string>
     <string name="enter_your_answer">Enter your answer</string>
@@ -38,9 +40,15 @@
     <string name="father">Father</string>
     <string name="female">Female</string>
     <string name="first_name">First Name</string>
+    <string name="for_enrollment">For Enrollment</string>
     <string name="forgot_password">Forgot password?</string>
     <string name="full_name">Full Name</string>
+    <string name="gcm_defaultSenderId" translatable="false">902809067451</string>
     <string name="gender">Gender</string>
+    <string name="google_api_key" translatable="false">AIzaSyBZjYc9Qxhm0DVQFRSDJyBAMkda6ZiXDtM</string>
+    <string name="google_app_id" translatable="false">1:902809067451:android:2a1a708657d7a5ed9cae9e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBZjYc9Qxhm0DVQFRSDJyBAMkda6ZiXDtM</string>
+    <string name="google_storage_bucket" translatable="false">universityenrollmentapp-f3c26.firebasestorage.app</string>
     <string name="grade_gpa">Grade/GPA</string>
     <string name="graduation_year">Graduation Year</string>
     <string name="guardian">Guardian</string>
@@ -53,8 +61,10 @@
     <string name="master_s_degree">Master’s Degree</string>
     <string name="morning">Morning</string>
     <string name="mother">Mother</string>
+    <string name="my_class">My Class</string>
     <string name="nationality">Nationality</string>
     <string name="news">News</string>
+    <string name="next">Next</string>
     <string name="or">Or</string>
     <string name="other">Other</string>
     <string name="parent_guardian">Parent/Guardian</string>
@@ -67,6 +77,7 @@
     <string name="place_of_birth">Place of birth</string>
     <string name="preferred_study_time">Preferred Study Time</string>
     <string name="program">Program</string>
+    <string name="project_id" translatable="false">universityenrollmentapp-f3c26</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_in_here">Sign In Here!</string>
     <string name="sign_up">Sign Up</string>
@@ -87,10 +98,26 @@
         
         
     </style>
+    <style name="CostumeChipStyle" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">#3B00B9</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
     <style name="FullWidthBottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
         <item name="itemHorizontalTranslationEnabled">false</item>
         <item name="itemPaddingTop">0dp</item>
         <item name="itemPaddingBottom">0dp</item>
     </style>
+    <style name="MyButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
     <style name="Theme.UniversityEnrollmentApp" parent="Base.Theme.UniversityEnrollmentApp"/>
+    <style name="Toolbar.TitleTextStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="TopBar" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>

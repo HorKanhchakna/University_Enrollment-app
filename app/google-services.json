@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902809067451",
+    "project_id": "universityenrollmentapp-f3c26",
+    "storage_bucket": "universityenrollmentapp-f3c26.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902809067451:android:2a1a708657d7a5ed9cae9e",
+        "android_client_info": {
+          "package_name": "com.example.universityenrollmentapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZjYc9Qxhm0DVQFRSDJyBAMkda6ZiXDtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

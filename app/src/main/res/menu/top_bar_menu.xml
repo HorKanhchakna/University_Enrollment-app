@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/icon_user"
+        android:title="User"
+        android:iconTint="@color/white"
+        android:contentDescription="View Profile"
+        app:showAsAction="ifRoom" />
+</menu>

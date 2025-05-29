@@ -8,13 +8,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="24dp"
-        android:gravity="center_horizontal">
-
-        <!-- Top Illustration -->
-
-        <!-- Welcome Text -->
+        android:padding="24dp">
 
         <ImageView
             android:id="@+id/ivIllustration"
@@ -38,46 +34,72 @@
             android:id="@+id/tvDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/thank_you_for_choosing_enroll_app_your_all_in_one_solution_for_a_smooth_and_hassle_free_university_enrollment_process_whether_you_re_a_first_year_student_or_continuing_your_academic_journey_our_app_is_here_to_guide_you_every_step_of_the_way"
-            android:textSize="14sp"
-            android:textColor="#555555"
-            android:gravity="center"
             android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/thank_you_for_choosing_enroll_app_your_all_in_one_solution_for_a_smooth_and_hassle_free_university_enrollment_process_whether_you_re_a_first_year_student_or_continuing_your_academic_journey_our_app_is_here_to_guide_you_every_step_of_the_way"
+            android:textColor="#555555"
+            android:textSize="14sp"
             tools:ignore="VisualLintLongText" />
 
         <!-- Sign Up Button -->
         <Button
             android:id="@+id/btnSignUp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#000080"
+            android:elevation="2dp"
             android:text="@string/sign_up"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:backgroundTint="#3B00B9"
-            android:layout_marginTop="24dp"
-            android:elevation="4dp"
+            android:textColor="#F1F1F1"
+            android:textSize="18sp"
             tools:ignore="VisualLintButtonSize" />
 
-        <!-- Or separator -->
-        <TextView
-            android:id="@+id/tvOr"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="______or______"
-            android:textColor="#757575" />
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp">
 
-        <!-- Sign In Button -->
+            <!-- Left divider -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#E0E0E0" />
+
+            <!-- "Or" text -->
+            <TextView
+                android:id="@+id/tvOr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:paddingHorizontal="16dp"
+                android:text="Or"
+                android:textColor="#666666" />
+
+            <!-- Right divider -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#E0E0E0" />
+        </LinearLayout>
+
+
         <Button
             android:id="@+id/btnSignIn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
+            android:backgroundTint="#F1F1F1"
+            android:elevation="2dp"
             android:text="@string/sign_in"
             android:textAllCaps="false"
-            android:textColor="#3B00B9"
-            android:backgroundTint="#F1F1F1"
-            android:layout_marginTop="8dp"
-            android:elevation="2dp"
+            android:textColor="#000080"
+            android:textSize="18sp"
             tools:ignore="VisualLintButtonSize" />
 
     </LinearLayout>

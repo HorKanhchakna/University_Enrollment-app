@@ -6,27 +6,16 @@
     android:background="#F5F5F5"
     android:orientation="vertical">
 
-    <RelativeLayout
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/appBar"
+        style="@style/TopBar"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:background="#000080"
-        android:gravity="center_vertical"
-        android:paddingStart="16dp"
-        android:paddingEnd="16dp">
-
-        <ImageButton
-            android:id="@+id/backButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:padding="8dp"
-            android:src="@drawable/ic_arrow_back"
-            android:tint="#FFFFFF" />
-
-    </RelativeLayout>
+        android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_arrow_back" />
 
     <ScrollView
         android:layout_width="match_parent"

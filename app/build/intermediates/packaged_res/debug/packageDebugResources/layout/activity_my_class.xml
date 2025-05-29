@@ -3,52 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:id="@+id/header"
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/appBar"
+        style="@style/TopBar"
         android:layout_width="0dp"
-        android:layout_height="70dp"
-        android:background="#000080"
-        android:gravity="center_vertical"
-        android:paddingStart="16dp"
+        android:layout_height="55dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageButton
-            android:id="@+id/backButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:padding="8dp"
-            android:src="@drawable/ic_arrow_back"
-            android:tint="#FFFFFF" />
-
-
-    </RelativeLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/top_bar_menu"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="Personal Information"
+        app:titleTextAppearance="@style/Toolbar.TitleTextStyle"
+        app:titleTextColor="@color/white" />
 
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:clipToPadding="false"
-        android:paddingBottom="120dp"
         android:paddingStart="10dp"
         android:paddingEnd="1dp"
-        app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+        android:paddingBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header">
+        app:layout_constraintTop_toBottomOf="@+id/appBar">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="24dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -183,11 +171,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="CLASS START"
                 android:textColor="#000000"
                 android:textSize="16sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/classStartTextView"
@@ -201,17 +189,17 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#CCCCCC"
-                android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="16dp"
+                android:background="#CCCCCC" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
                 android:text="ROOM"
                 android:textColor="#000000"
                 android:textSize="16sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="8dp" />
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/roomTextView"
@@ -224,17 +212,17 @@
         </LinearLayout>
     </ScrollView>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigation"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:background="#000080"
-        app:itemIconTint="#FFFFFF"
-        app:itemTextColor="#FFFFFF"
-        app:labelVisibilityMode="labeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+    <!--        android:id="@+id/bottomNavigation"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#000080"-->
+    <!--        app:itemIconTint="#FFFFFF"-->
+    <!--        app:itemTextColor="#FFFFFF"-->
+    <!--        app:labelVisibilityMode="labeled"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:menu="@menu/bottom_nav_menu" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
