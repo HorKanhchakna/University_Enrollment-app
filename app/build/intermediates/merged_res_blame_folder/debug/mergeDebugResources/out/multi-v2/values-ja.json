@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.universityenrollmentapp-mergeDebugResources-41:/values-ja/values-ja.xml",
+            "outputFile": "com.example.universityenrollmentapp-mergeDebugResources-42:/values-ja/values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\8.10.2\\transforms\\2c9991182d15cbd65339dcfcdfc3a4f8\\transformed\\material-1.12.0\\res\\values-ja\\values-ja.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.universityenrollmentapp-mergeDebugResources-41:/values-v23/values-v23.xml",
+            "outputFile": "com.example.universityenrollmentapp-mergeDebugResources-42:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\8.10.2\\transforms\\839a6fccc63859e0b1598709ab6258fd\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

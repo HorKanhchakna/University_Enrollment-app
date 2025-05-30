@@ -1,6 +1,8 @@
 package com.example.universityenrollmentapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,5 +20,14 @@ public class CampusActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityCampusBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        binding.appBar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(CampusActivity.this, MainActivity.class));
+                finish();
+            }
+        });
+
     }
 }

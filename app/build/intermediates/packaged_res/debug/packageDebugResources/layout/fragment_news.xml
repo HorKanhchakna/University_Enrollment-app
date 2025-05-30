@@ -87,14 +87,11 @@
                 android:layout_marginBottom="8dp"
                 android:background="#000000" />
 
-            <!-- RecyclerView -->
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="14dp"
-                tools:listitem="@layout/events_schedule" />
+                android:overScrollMode="never"
+                android:layout_height="wrap_content" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

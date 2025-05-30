@@ -5,26 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Header Section -->
+
+    <!-- ScrollView with Content -->
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/appBar"
         style="@style/TopBar"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="55dp"
+        android:layout_gravity="center_vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:title="My class"
+        app:titleTextColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:menu="@menu/top_bar_menu"
-        app:navigationIcon="@drawable/ic_arrow_back"
-        app:title="Personal Information"
-        app:titleTextAppearance="@style/Toolbar.TitleTextStyle"
-        app:titleTextColor="@color/white" />
-
+        app:navigationIcon="@drawable/ic_arrow_back" />
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:clipToPadding="false"
-        android:paddingStart="10dp"
         android:paddingEnd="1dp"
         android:paddingBottom="120dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -12,7 +12,6 @@ import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.universityenrollmentapp.R;
 import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -23,9 +22,6 @@ public final class ActivityEnrollmentDetailsBinding implements ViewBinding {
 
   @NonNull
   public final MaterialToolbar appBar;
-
-  @NonNull
-  public final BottomNavigationView bottomNavigation;
 
   @NonNull
   public final TextView enrollmentDateTextView;
@@ -40,12 +36,11 @@ public final class ActivityEnrollmentDetailsBinding implements ViewBinding {
   public final TextView studentNameTextView;
 
   private ActivityEnrollmentDetailsBinding(@NonNull LinearLayout rootView,
-      @NonNull MaterialToolbar appBar, @NonNull BottomNavigationView bottomNavigation,
-      @NonNull TextView enrollmentDateTextView, @NonNull TextView paymentIdTextView,
-      @NonNull TextView phoneNumberTextView, @NonNull TextView studentNameTextView) {
+      @NonNull MaterialToolbar appBar, @NonNull TextView enrollmentDateTextView,
+      @NonNull TextView paymentIdTextView, @NonNull TextView phoneNumberTextView,
+      @NonNull TextView studentNameTextView) {
     this.rootView = rootView;
     this.appBar = appBar;
-    this.bottomNavigation = bottomNavigation;
     this.enrollmentDateTextView = enrollmentDateTextView;
     this.paymentIdTextView = paymentIdTextView;
     this.phoneNumberTextView = phoneNumberTextView;
@@ -85,12 +80,6 @@ public final class ActivityEnrollmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.bottomNavigation;
-      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
-      if (bottomNavigation == null) {
-        break missingId;
-      }
-
       id = R.id.enrollmentDateTextView;
       TextView enrollmentDateTextView = ViewBindings.findChildViewById(rootView, id);
       if (enrollmentDateTextView == null) {
@@ -115,7 +104,7 @@ public final class ActivityEnrollmentDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityEnrollmentDetailsBinding((LinearLayout) rootView, appBar, bottomNavigation,
+      return new ActivityEnrollmentDetailsBinding((LinearLayout) rootView, appBar,
           enrollmentDateTextView, paymentIdTextView, phoneNumberTextView, studentNameTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);

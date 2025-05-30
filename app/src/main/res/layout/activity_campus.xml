@@ -16,7 +16,7 @@
         android:layout_height="55dp"
         android:layout_gravity="center_vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:title="My class"
+        app:title="My Campus"
         app:titleTextColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

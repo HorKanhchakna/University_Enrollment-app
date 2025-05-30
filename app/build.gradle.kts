@@ -46,7 +46,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation(libs.imageslideshow)
     implementation("com.github.denzcoskun:ImageSlideshow:0.0.6")
     implementation("com.github.denzcoskun:ImageSlideshow:0.1.0")

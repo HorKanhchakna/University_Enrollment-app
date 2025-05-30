@@ -11,7 +11,6 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\Administ
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\bc9a05880a01560ed390100ee584de1b\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\dbbd64acbc409df94b2182fddc1cd403\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth:23.2.1] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\7c0eb39eff44de046613b5ab1fd8eeda\transformed\firebase-auth-23.2.1\AndroidManifest.xml:17:1-75:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\89b157a129d365ed88d77ae7788fde60\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\e68aa0c342c8543f530d3871ef5a8f6c\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\34cda78ee561eb99b5a1b6339f93ca47\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\c84c9f853a08a16e04654253ae31b994\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
@@ -25,6 +24,8 @@ MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Administrator\
 MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\edf41d88fd585e250e5f488c87b24e4d\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\7b31e20a9c38bae55d7dfe510d1a5c8d\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\39cf7a20da275cb0e71aba1596ef80ae\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\d030c8b8e9de0d19789daa653e5df232\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\64a6716eed9734b02323489e71e1a70e\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\ea6a34e6eceb51d99d43dcf83f9ccd8b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\36dff4af978d3d5f64a8e3b995763588\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\ce8c562b2f4cf7d9eb42ad9d244b1a4a\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -34,11 +35,11 @@ MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Administ
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\594a032e132965790cc451ea4cbd811d\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\49cba0d16713340c5db61ce45cc023ab\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\e79d06a3b288a6cbc3ac563fe5a5356d\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\8627abb8ab05f4a89dc0bb5afcdeb994\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\3dc89c2e68f465506f27805bae589be2\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\600bde96663bbb7547e76a9b738224cc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\861e99412de24e6ef1df725987f7a99f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\ea22dfb6d13bd395649d8ea610a22b11\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\6e07501d3f890a9432dcdacb86d328d4\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\f8b0b314c25265c9d86ada2dd5fee295\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.16.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\98175c26de5cdb5fd4dab7b3adf42fa0\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\1f5faac913b3bf2b30eb22a77f23aad6\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
@@ -255,8 +256,6 @@ MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Administrator\.gradle\
 MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\dbbd64acbc409df94b2182fddc1cd403\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:23.2.1] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\7c0eb39eff44de046613b5ab1fd8eeda\transformed\firebase-auth-23.2.1\AndroidManifest.xml:21:5-23:151
 MERGED from [com.google.firebase:firebase-auth:23.2.1] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\7c0eb39eff44de046613b5ab1fd8eeda\transformed\firebase-auth-23.2.1\AndroidManifest.xml:21:5-23:151
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\89b157a129d365ed88d77ae7788fde60\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\89b157a129d365ed88d77ae7788fde60\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\e68aa0c342c8543f530d3871ef5a8f6c\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
 MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\e68aa0c342c8543f530d3871ef5a8f6c\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
 MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\34cda78ee561eb99b5a1b6339f93ca47\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
@@ -283,6 +282,10 @@ MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Adm
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\7b31e20a9c38bae55d7dfe510d1a5c8d\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\39cf7a20da275cb0e71aba1596ef80ae\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\39cf7a20da275cb0e71aba1596ef80ae\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\d030c8b8e9de0d19789daa653e5df232\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\d030c8b8e9de0d19789daa653e5df232\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\64a6716eed9734b02323489e71e1a70e\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\64a6716eed9734b02323489e71e1a70e\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\ea6a34e6eceb51d99d43dcf83f9ccd8b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\ea6a34e6eceb51d99d43dcf83f9ccd8b\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\36dff4af978d3d5f64a8e3b995763588\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
@@ -301,6 +304,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrato
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\49cba0d16713340c5db61ce45cc023ab\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\e79d06a3b288a6cbc3ac563fe5a5356d\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\e79d06a3b288a6cbc3ac563fe5a5356d\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\8627abb8ab05f4a89dc0bb5afcdeb994\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\8627abb8ab05f4a89dc0bb5afcdeb994\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\3dc89c2e68f465506f27805bae589be2\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\3dc89c2e68f465506f27805bae589be2\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\600bde96663bbb7547e76a9b738224cc\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
@@ -309,8 +314,6 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\861e99412de24e6ef1df725987f7a99f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\ea22dfb6d13bd395649d8ea610a22b11\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\ea22dfb6d13bd395649d8ea610a22b11\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\6e07501d3f890a9432dcdacb86d328d4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\6e07501d3f890a9432dcdacb86d328d4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\f8b0b314c25265c9d86ada2dd5fee295\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\f8b0b314c25265c9d86ada2dd5fee295\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.16.0] C:\Users\Administrator\.gradle\caches\8.10.2\transforms\98175c26de5cdb5fd4dab7b3adf42fa0\transformed\core-1.16.0\AndroidManifest.xml:20:5-44

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.universityenrollmentapp-mergeDebugResources-41:/values-ka/values-ka.xml",
+            "outputFile": "com.example.universityenrollmentapp-mergeDebugResources-42:/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\8.10.2\\transforms\\e79d06a3b288a6cbc3ac563fe5a5356d\\transformed\\browser-1.4.0\\res\\values-ka\\values-ka.xml",

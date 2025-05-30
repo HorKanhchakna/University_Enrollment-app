@@ -1,82 +1,70 @@
 [
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_enrollment_info.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_enrollment_info.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_enrollment_info.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_enrollment_info.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_welcome.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_welcome.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_contact.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_contact.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_enrollment_success.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_enrollment_success.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\fragment_news.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\fragment_news.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_enrollment_details.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_enrollment_details.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_enrollment_details.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_enrollment_details.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\fragment_contact.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\fragment_contact.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_my_class.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_my_class.xml"
     },
     {
-        "merged": "com.example.universityenrollmentapp-mergeDebugResources-42:/layout/activity_my_class.xml",
-        "source": "com.example.universityenrollmentapp-main-45:/layout/activity_my_class.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_campus.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_campus.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_sign_up.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\fragment_contact.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\fragment_contact.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\fragment_new.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\fragment_new.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_sign_in.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\fragment_news.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\fragment_news.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_enrollment_success.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_enrollment_success.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\events_schedule.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\events_schedule.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_personal_enrollment_info.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_personal_enrollment_info.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_my_class.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_my_class.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\activity_personal_enrollment_info.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\activity_personal_enrollment_info.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_sign_in.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_sign_in.xml"
+        "merged": "com.example.universityenrollmentapp-mergeDebugResources-43:/layout/activity_my_class.xml",
+        "source": "com.example.universityenrollmentapp-main-46:/layout/activity_my_class.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_contact.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_contact.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_home.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_campus.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_campus.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-42:\\layout\\activity_news.xml",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-45:\\layout\\activity_news.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-mergeDebugResources-43:\\layout\\events_schedule.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.10.2\\com.example.universityenrollmentapp-main-46:\\layout\\events_schedule.xml"
     }
 ]
